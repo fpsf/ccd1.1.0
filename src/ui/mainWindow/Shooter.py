@@ -5,7 +5,7 @@ from PIL.ImageQt import ImageQt
 from PyQt5 import QtCore
 from PyQt5 import QtGui
 from PyQt5 import QtWidgets
-from pyfits import getdata
+from astropy.io.fits import getdata
 from scipy.misc import toimage
 
 from src.controller.camera import Camera

@@ -2,7 +2,7 @@ from datetime import datetime
 
 import os
 
-import pyfits as fits
+import astropy.io.fits as fits
 
 from src.utils.camera import Image_Processing
 from src.utils.camera.Julian_Day import jd_to_date, date_to_jd

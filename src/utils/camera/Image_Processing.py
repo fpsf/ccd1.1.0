@@ -3,7 +3,7 @@ import sys
 from datetime import datetime
 
 import numpy
-import pyfits as fits
+import astropy.io.fits as fits
 from PIL import Image, ImageDraw, ImageFont
 from skimage import exposure
 from libtiff import TIFFimage
